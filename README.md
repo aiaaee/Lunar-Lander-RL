@@ -15,4 +15,13 @@ The primary goal of this project is to compare the performance of DQN and Double
 The following demonstrations show the trained agents interacting with the Lunar Lander environment after completing the training process.
 
 
+## Features 
 
+- Implementation of Deep Q-Network (DQN) from scratch using PyTorch  
+- Implementation of Double DQN to reduce overestimation bias  
+- Experience Replay for stable training  
+- Target Network for improved convergence  
+- Epsilon-Greedy policy for exploration vs exploitation  
+- Modular and clean project structure  
+- Training and evaluation pipelines separated  
+- Performance comparison between DQN and Double DQN  

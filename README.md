@@ -112,3 +112,15 @@ python src/training/train_double_dqn.py
 python src/evaluation/evaluate.py
 ```
 
+## Future Work
+
+This project provides a baseline implementation of DQN and Double DQN for the Lunar Lander environment. Future improvements may include:
+
+* Implementing **Dueling DQN** to improve value estimation.
+* Integrating **Prioritized Experience Replay (PER)** for more efficient sampling.
+* Extending the project with advanced reinforcement learning algorithms such as **Rainbow DQN** and **PPO**.
+* Performing comprehensive hyperparameter tuning and performance evaluation.
+* Comparing the implemented algorithms using quantitative metrics and training curves.
+* Improving the visualization of the agent's behavior with additional demonstrations and analysis.
+
+

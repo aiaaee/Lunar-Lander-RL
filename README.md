@@ -26,3 +26,101 @@ The following demonstrations show the trained agents interacting with the Lunar 
 - Training and evaluation pipelines separated  
 - Performance comparison between DQN and Double DQN  
 
+
+## Project Structure
+
+```text
+Lunar-Lander-RL/
+├── configs/
+│   ├── dqn.yaml
+│   └── double_dqn.yaml
+│
+├── src/
+│   ├── agents/
+│   │   ├── dqn_agent.py
+│   │   └── double_dqn_agent.py
+│   │
+│   ├── networks/
+│   │   └── q_network.py
+│   │
+│   ├── memory/
+│   │   └── replay_buffer.py
+│   │
+│   ├── training/
+│   │   ├── train_dqn.py
+│   │   └── train_double_dqn.py
+│   │
+│   ├── evaluation/
+│   │   └── evaluate.py
+│   │
+│   └── utils/
+│       ├── plotting.py
+│       ├── logger.py
+│       └── seed.py
+│
+├── models/
+│   ├── dqn/
+│   └── double_dqn/
+│
+├── results/
+│   ├── plots/
+│   ├── videos/
+│   └── logs/
+│
+├── notebooks/
+│
+├── README.md
+├── requirements.txt
+└── LICENSE
+```
+
+The project follows a modular structure that separates the agent, neural network, replay buffer, training pipeline, evaluation, and utility functions, making the codebase easier to maintain and extend.
+
+
+## Installation & Usage
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/<your-username>/Lunar-Lander-RL.git
+cd Lunar-Lander-RL
+```
+
+### 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Train the agent
+
+To train the DQN agent:
+
+```bash
+python src/training/train_dqn.py
+```
+
+To train the Double DQN agent:
+
+```bash
+python src/training/train_double_dqn.py
+```
+
+### 4. Evaluate a trained model
+
+```bash
+python src/evaluation/evaluate.py
+```
+
+## Future Work
+
+This project provides a baseline implementation of DQN and Double DQN for the Lunar Lander environment. Future improvements may include:
+
+* Implementing **Dueling DQN** to improve value estimation.
+* Integrating **Prioritized Experience Replay (PER)** for more efficient sampling.
+* Extending the project with advanced reinforcement learning algorithms such as **Rainbow DQN** and **PPO**.
+* Performing comprehensive hyperparameter tuning and performance evaluation.
+* Comparing the implemented algorithms using quantitative metrics and training curves.
+* Improving the visualization of the agent's behavior with additional demonstrations and analysis.
+
+

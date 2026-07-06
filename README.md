@@ -67,8 +67,6 @@ Lunar-Lander-RL/
 │   ├── videos/
 │   └── logs/
 │
-├── notebooks/
-│
 ├── README.md
 ├── requirements.txt
 └── LICENSE

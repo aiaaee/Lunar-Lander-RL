@@ -75,3 +75,40 @@ Lunar-Lander-RL/
 ```
 
 The project follows a modular structure that separates the agent, neural network, replay buffer, training pipeline, evaluation, and utility functions, making the codebase easier to maintain and extend.
+
+
+## Installation & Usage
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/<your-username>/Lunar-Lander-RL.git
+cd Lunar-Lander-RL
+```
+
+### 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Train the agent
+
+To train the DQN agent:
+
+```bash
+python src/training/train_dqn.py
+```
+
+To train the Double DQN agent:
+
+```bash
+python src/training/train_double_dqn.py
+```
+
+### 4. Evaluate a trained model
+
+```bash
+python src/evaluation/evaluate.py
+```
+

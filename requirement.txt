@@ -2,4 +2,9 @@ torch
 gymnasium[box2d]
 numpy
 matplotlib
-tqdm
+IPython
+imageio
+collections 
+copy
+random
+math 

@@ -18,7 +18,7 @@ The following demonstrations show the trained agents interacting with the Lunar 
 ## Features 
 
 - Implementation of Deep Q-Network (DQN) from scratch using PyTorch  
-- Implementation of Double DQN to reduce overestimation bias  
+- Implementation of Double DQN (DDQN) to reduce overestimation bias  
 - Experience Replay for stable training  
 - Target Network for improved convergence  
 - Epsilon-Greedy policy for exploration vs exploitation  
